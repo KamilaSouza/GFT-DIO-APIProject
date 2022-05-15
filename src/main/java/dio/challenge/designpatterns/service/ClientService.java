@@ -1,6 +1,8 @@
 package dio.challenge.designpatterns.service;
 
 import dio.challenge.designpatterns.model.Client;
+import dio.challenge.designpatterns.model.ClientRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 
 // Strategy pattern.
 public interface ClientService {
