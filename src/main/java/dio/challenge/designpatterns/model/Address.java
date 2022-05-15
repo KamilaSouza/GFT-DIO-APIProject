@@ -1,5 +1,6 @@
 package dio.challenge.designpatterns.model;
 
+import javax.persistence.Entity;
 import javax.persistence.Id;
 
 /*
@@ -9,6 +10,8 @@ Site to get cep:
 https://viacep.com.br/
 
  */
+
+@Entity
 public class Address {
 
     @Id
